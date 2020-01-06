@@ -6,6 +6,16 @@
      * 328/pp1/index.php
      * Pair Program 1
      */
+
+    $numbers = array(7, 9, 8, 9, 8, 8, 6);
+
+    function printArr($arr) {
+        foreach($arr as $x) {
+            echo "<br><p>$x</p>";
+        }
+    }
+
+    printArr($numbers);
 ?>
 <!doctype html>
 <html lang="en">
