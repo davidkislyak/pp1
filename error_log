@@ -1,4 +1,0 @@
-[08-Jan-2020 18:14:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printArr() in /home/davidgr1/public_html/328/pp1/index.php:12
-Stack trace:
-#0 {main}
-  thrown in /home/davidgr1/public_html/328/pp1/index.php on line 12

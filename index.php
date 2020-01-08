@@ -24,5 +24,9 @@
 </head>
 <body>
     <h1>Pair Program 1</h1>
+    <p>The largest number of [3, 2, 5, 7, 8, 21, 22, 144, 99, 88, 8] is: </p>
+    <?php
+        echo '<p>'.largest([3, 2, 5, 7, 8, 21, 22, 144, 99, 88, 8]).'</p>';
+    ?>
 </body>
 </html>
