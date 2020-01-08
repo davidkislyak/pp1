@@ -16,3 +16,15 @@ function largest($arr) {
 
     return $biggest;
 }
+
+function removeDups($arr) {
+    $return = [];
+
+    foreach ($arr as $x) {
+        if (!in_array($x, $return)) {
+            $return[] = $x;
+        }
+    }
+
+    return $return;
+}

@@ -28,5 +28,9 @@
     <?php
         echo '<p>'.largest([3, 2, 5, 7, 8, 21, 22, 144, 99, 88, 8]).'</p>';
     ?>
+    <p>The un dupefied array of [88, 21, 22, 144, 99, 88, 88] is: </p>
+    <?php
+        echo '<p>'.printArr(removeDups([88, 21, 22, 144, 99, 88, 88])).'</p>';
+    ?>
 </body>
 </html>
