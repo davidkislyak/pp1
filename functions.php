@@ -28,3 +28,18 @@ function removeDups($arr) {
 
     return $return;
 }
+
+function distribution($numbers) {
+    $noDups = removeDups($numbers);
+    $return = [];
+
+    foreach ($noDups as $x) {
+        $return[$x] = 0;
+    }
+
+    foreach ($numbers as $y) {
+        $return[$y]++;
+    }
+
+    return $return;
+}
